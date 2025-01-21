@@ -1,0 +1,9 @@
+[package]
+name = "tide_challenge"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-std = { version = "1.13.0", features = ["attributes"] }
+serde = { version = "1.0.217", features = ["derive"] }
+tide = "0.16.0"
